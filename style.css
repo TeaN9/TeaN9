@@ -1,0 +1,128 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	background: url(aaron-burden.jpg) no-repeat center fixed;
+	background-size: cover;
+	color: white;
+}
+
+.background {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-wrap {
+	display: block;
+	padding-top: 100px;
+}
+
+.card {
+	position: relative;
+	background-color: #ffffff52;
+	padding: 80px 30px 30px 30px;
+	border-radius: 20px;
+	max-width: 600px;
+	backdrop-filter: blur(2px);
+}
+
+.portrait-half {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border: 5px solid #ffffff52;
+	border-top-left-radius: 90px;
+	border-top-right-radius: 90px;
+	border-bottom: 0;
+	transform: translate(-50%, -100%);
+	width: 160px;
+	height: 80px;
+	backdrop-filter: blur(8px);
+}
+
+.portrait {
+	position: absolute;
+	top: 0;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+	background-image: url(my_img.jpg);
+	width: 160px;
+	height: 160px;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.name {
+	font-weight: 700;
+	text-transform: Uppercase;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: cambria;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.quote {
+	font-family: Comic Sans, cursive;
+	font-size: 25px;
+	text-align: justify;
+	text-shadow: 2px 2px 1px #000000;
+}
+
+.author {
+	text-align: end;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 10px;
+	margin-inline-end: 10px;
+}
+
+.eat {
+	transform: translateY(5px);
+}
+
+.do {
+	transform: translateY(5px);
+}
+
+.speak {
+	height: 20px;
+	transform: translateY(2px);
+}
+
+.contact {
+	text-align: center;
+}
+
+#github-icon {
+	height: 25px;
+	transform: translateY(5px);
+}
+
+#gmail-icon {
+	height: 20px;
+	transform: translateY(5px);
+}
+
+#phone-icon {
+	height: 20px;
+	transform: translateY(5px);
+}
